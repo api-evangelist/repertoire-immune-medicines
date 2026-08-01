@@ -1,8 +1,14 @@
 aid: repertoire-immune-medicines
 name: Repertoire Immune Medicines
-description: 'Repertoire Immune Medicines is a company surfaced as a portfolio company of softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Repertoire Immune Medicines is a Cambridge, Massachusetts biotechnology company
+  (with a site in Schlieren, Switzerland) building immune medicines grounded in the human
+  T cell repertoire. Its proprietary DECODE platform characterizes the immune synapse by
+  identifying T cell receptor (TCR) and antigen (peptide-MHC) pairs together with T cell
+  function and HLA presentation, and uses that map to rationally design treatments across
+  oncology, autoimmune disease, and infectious disease. Backed by Flagship Pioneering and
+  SoftBank Vision Fund, the company was surfaced as a portfolio company and added to the
+  API Evangelist network for enrichment. It publishes no public developer API; its only
+  public technical surface is a small research GitHub organization.'
 url: https://raw.githubusercontent.com/api-evangelist/repertoire-immune-medicines/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +16,52 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Health Tech
+- Biotechnology
+- Immunology
+- T Cell
+- Drug Discovery
+- Oncology
+image: https://www.repertoire.com/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/repertoire-immune-medicines-domain-security.yml
+- type: Website
+  url: https://www.repertoire.com/
+- type: GitHubOrganization
+  url: https://github.com/repertoireimmunemedicines
+- type: Blog
+  url: https://www.repertoire.com/about/press-releases
+- type: Support
+  url: https://www.repertoire.com/contact
+- type: PrivacyPolicy
+  url: https://www.repertoire.com/privacy
+- type: TermsOfService
+  url: https://www.repertoire.com/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

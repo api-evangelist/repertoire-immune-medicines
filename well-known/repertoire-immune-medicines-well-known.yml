@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: probed
+source: https://www.repertoire.com/
+host: https://www.repertoire.com
+note: Corporate biotech site; no API surface. All probed .well-known paths returned 404.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
